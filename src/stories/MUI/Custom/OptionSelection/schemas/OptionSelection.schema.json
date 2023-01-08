@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "https://example/v1/schema/OptionSelection.schema.json",
+  "title": "Option selection",
+  "properties": {
+    "option": {
+      "type": "string",
+      "enum": [
+        "Email",
+        "SMS",
+        "Evoice",
+        "Push"
+      ]
+    }
+  }
+}

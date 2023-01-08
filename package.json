@@ -1,0 +1,90 @@
+{
+  "name": "react-component-driven-design",
+  "version": "0.1.0",
+  "description": "React Component Driven Design (CDD) project",
+  "bugs": {
+    "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "latest",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@mui/x-data-grid": "^5.15.0",
+    "@mui/x-data-grid-generator": "^5.15.1",
+    "@rjsf/core": "^4.2.3",
+    "@rjsf/material-ui": "^4.2.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.22.2",
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
+    "mousetrap": "^1.6.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-router": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "init-msw": "msw init public/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.7",
+    "@storybook/addon-essentials": "^6.5.7",
+    "@storybook/addon-interactions": "^6.5.7",
+    "@storybook/addon-links": "^6.5.7",
+    "@storybook/builder-webpack5": "^6.5.7",
+    "@storybook/jest": "^0.0.10",
+    "@storybook/manager-webpack5": "^6.5.7",
+    "@storybook/node-logger": "^6.5.7",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.7",
+    "@storybook/testing-library": "^0.0.11",
+    "babel-plugin-named-exports-order": "^0.0.2",
+    "msw": "^0.42.0",
+    "msw-storybook-addon": "^1.6.3",
+    "prop-types": "^15.8.1",
+    "storybook-dark-mode": "^1.0.8",
+    "webpack": "^5.73.0"
+  }
+}
