@@ -1,6 +1,6 @@
 # tome
 
-Native Component-driven development (CDD) environment for React.
+Native component-driven development (CDD) environment for React.
 
 e.g., Electric storybook :zap:
 
