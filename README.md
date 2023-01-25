@@ -1,8 +1,16 @@
 # tome
 
-Native component-driven development (CDD) environment for React.
+**/tōm/**,
 
-e.g., Electric storybook :zap:
+with a lower-case **T**.
+
+**Native component-driven development (CDD) environment for React.**
+
+e.g., *Electric Storybook* :zap:
+
+Includes a collection of **Material UI** and **Ant Design** functional components.
+
+---
 
 ### Install dependencies
 
@@ -19,6 +27,6 @@ e.g., Electric storybook :zap:
 ---
 
 ### Useful links
+- https://storybook.js.org/
 - https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/
 - https://storybook.js.org/tutorials/design-systems-for-developers/
-- https://storybook.js.org/
