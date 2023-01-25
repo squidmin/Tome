@@ -1,4 +1,4 @@
-# Tome
+# tome
 
 Native Component-driven development (CDD) environment for React.
 
