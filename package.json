@@ -1,10 +1,7 @@
 {
-  "name": "react-component-driven-design",
+  "name": "tome",
   "version": "0.1.0",
-  "description": "React Component Driven Design (CDD) project",
-  "bugs": {
-    "url": "https://github.com/chromaui/intro-storybook-react-template/issues"
-  },
+  "description": "Native Component-driven development (CDD) environment for React",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
