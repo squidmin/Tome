@@ -1,6 +1,20 @@
-# storybook-react
+# Tome
 
-Component-driven development (CDD) environment for React that runs in the web browser.
+Native Component-driven development (CDD) environment for React.
+
+e.g., Electric storybook :zap:
+
+### Install dependencies
+
+`yarn`
+
+### Run the dev server
+
+`npm run storybook-no-open`
+
+### Start Electron
+
+`npm run start-electron`
 
 ---
 
