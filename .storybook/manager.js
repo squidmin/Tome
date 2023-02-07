@@ -5,5 +5,5 @@ import { themes } from '@storybook/theming';
 
 addons.setConfig({
     // theme: DefaultTheme,
-    theme: themes.dark,
+    theme: themes.light,
 });
