@@ -2,7 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 
 
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import AddIcon from '@mui/icons-material/Add';
 import TextField from '@mui/material/TextField';
@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import { DataGrid, GridToolbar } from '@mui/x-data-grid';
 
 
-import { lightTheme, darkTheme, } from '../../../../../src/stories/MUI/themes/commonThemes';
+import { lightTheme, darkTheme, } from '../../themes/commonThemes';
 import { consolasFontTheme, } from '../../themes/fontOverrideTheme';
 import { deepmerge } from '@mui/utils';
 import { ThemeProvider, createTheme, } from '@mui/material/styles';

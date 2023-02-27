@@ -2,14 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-import Button from '@material-ui/core/Button';
-// import TextField from '@material-ui/core/TextField';  // Breaks MUI dark mode theme
+import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 
 
 import { ThemeProvider, } from '@mui/material/styles';
-import { lightTheme, darkTheme, } from '../../../../src/stories/MUI/themes/commonThemes';
+import { lightTheme, darkTheme, } from '../themes/commonThemes';
 import CssBaseline from '@mui/material/CssBaseline';
 
 
